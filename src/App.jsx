@@ -6,7 +6,7 @@ export default class App extends Component {
     return (
       <Layouts>
         <div>
-          <span>Optimum Achievers Academy</span>
+          <span className='flex justify-center items-center text-black'>Optimum Achievers Academy</span>
         </div>
       </Layouts>
     )
