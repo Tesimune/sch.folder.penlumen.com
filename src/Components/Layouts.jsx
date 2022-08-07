@@ -5,7 +5,7 @@ import Header from './Header'
 export default function Layouts(props) {
   return (
     <div>
-        <div>
+        <div className='bg-slate-300'>
             <Header/>
                 {props.children}
             <Footer/>
