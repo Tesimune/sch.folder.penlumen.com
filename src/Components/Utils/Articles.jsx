@@ -12,7 +12,7 @@ export default class Articles extends Component {
         <div className='grid md:grid-cols-3 gap-5'>
             <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <a href="#/">
-                    <img className="rounded-t-lg" src="../../Images/oaa9.jpg" alt=""/>
+                    <img className="rounded-t-lg" src="images/oaa9.jpg" alt=""/>
                 </a>
                 <div className="p-5">
                     <a href="#/">
@@ -28,7 +28,7 @@ export default class Articles extends Component {
 
             <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <a href="#/">
-                    <img className="rounded-t-lg" src="../../Images/oaa6.jpg" alt=""/>
+                    <img className="rounded-t-lg" src="images/oaa6.jpg" alt=""/>
                 </a>
                 <div className="p-5">
                     <a href="#/">
@@ -44,7 +44,7 @@ export default class Articles extends Component {
 
             <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <a href="#/">
-                    <img className="rounded-t-lg" src="../../Images/oaa14.jpg" alt=""/>
+                    <img className="rounded-t-lg" src="images/oaa14.jpg" alt=""/>
                 </a>
                 <div className="p-5">
                     <a href="#/">
@@ -60,7 +60,7 @@ export default class Articles extends Component {
 
             <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <a href="#/">
-                    <img className="rounded-t-lg" src="../../Images/oaa4.jpg" alt=""/>
+                    <img className="rounded-t-lg" src="images/oaa4.jpg" alt=""/>
                 </a>
                 <div className="p-5">
                     <a href="#/">
@@ -76,7 +76,7 @@ export default class Articles extends Component {
 
             <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <a href="#/">
-                    <img className="rounded-t-lg" src="../../Images/oaa21.jpg" alt=""/>
+                    <img className="rounded-t-lg" src="images/oaa21.jpg" alt=""/>
                 </a>
                 <div className="p-5">
                     <a href="#/">
@@ -92,7 +92,7 @@ export default class Articles extends Component {
 
             <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <a href="#/">
-                    <img className="rounded-t-lg" src="../../Images/oaa20.jpg" alt=""/>
+                    <img className="rounded-t-lg" src="images/oaa20.jpg" alt=""/>
                 </a>
                 <div className="p-5">
                     <a href="#/">
