@@ -9,10 +9,10 @@ export default class Articles extends Component {
       <div className='grid gap-3 py-3 px-2'>
 
         <span className='flex justify-center items-center text-black md:text-lg font-bold p-3'>Optimum Achievers Academy</span>
-        <div>
+        <div className='grid md:grid-cols-3 gap-5'>
             <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <a href="#/">
-                    <img className="rounded-t-lg" src="/images/image-1.jpg" alt=""/>
+                    <img className="rounded-t-lg" src="./Images/oaa9.jpg" alt=""/>
                 </a>
                 <div className="p-5">
                     <a href="#/">
@@ -25,6 +25,87 @@ export default class Articles extends Component {
                     </a>
                 </div>
             </div>
+
+            <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="#/">
+                    <img className="rounded-t-lg" src="./Images/oaa6.jpg" alt=""/>
+                </a>
+                <div className="p-5">
+                    <a href="#/">
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Optimum Achievers Academy 2022 Enrolment</h5>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Optimum Achievers Academy 2022 School Uniform</p>
+                    <a href="#/" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <AiOutlineArrowRight className="ml-2 -mr-1 w-4 h-4"/>
+                    </a>
+                </div>
+            </div>
+
+            <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="#/">
+                    <img className="rounded-t-lg" src="./Images/oaa14.jpg" alt=""/>
+                </a>
+                <div className="p-5">
+                    <a href="#/">
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Optimum Achievers Academy 2022 Enrolment</h5>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Optimum Achievers Academy 2022 Alt School Uniform</p>
+                    <a href="#/" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <AiOutlineArrowRight className="ml-2 -mr-1 w-4 h-4"/>
+                    </a>
+                </div>
+            </div>
+
+            <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="#/">
+                    <img className="rounded-t-lg" src="./Images/oaa4.jpg" alt=""/>
+                </a>
+                <div className="p-5">
+                    <a href="#/">
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Optimum Achievers Academy 2022 Enrolment</h5>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Optimum Achievers Academy 2022 Islamic School Uniform</p>
+                    <a href="#/" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <AiOutlineArrowRight className="ml-2 -mr-1 w-4 h-4"/>
+                    </a>
+                </div>
+            </div>
+
+            <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="#/">
+                    <img className="rounded-t-lg" src="./Images/oaa21.jpg" alt=""/>
+                </a>
+                <div className="p-5">
+                    <a href="#/">
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Optimum Achievers Academy 2022 Enrolment</h5>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Optimum Achievers Academy 2022 School Uniform</p>
+                    <a href="#/" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <AiOutlineArrowRight className="ml-2 -mr-1 w-4 h-4"/>
+                    </a>
+                </div>
+            </div>
+
+            <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="#/">
+                    <img className="rounded-t-lg" src="./Images/oaa20.jpg" alt=""/>
+                </a>
+                <div className="p-5">
+                    <a href="#/">
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Optimum Achievers Academy 2022 Enrolment</h5>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Optimum Achievers Academy 2022 School Uniform</p>
+                    <a href="#/" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <AiOutlineArrowRight className="ml-2 -mr-1 w-4 h-4"/>
+                    </a>
+                </div>
+            </div>
+
         </div>
 
         
