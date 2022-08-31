@@ -12,15 +12,15 @@ export default class Slider extends Component {
             <div className="relative h-56 overflow-hidden md:h-96">
                 {/* <!-- Item 1 --> */}
                 <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20" data-carousel-item="">
-                    <img src="./Images/oaa8.jpg" className="absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                    <img src="../../Images/oaa8.jpg" className="absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                 </div>
                 {/* <!-- Item 2 --> */}
                 <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10" data-carousel-item="">
-                    <img src="./Images/oaa8.jpg" className="absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                    <img src="../../Images/oaa8.jpg" className="absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                 </div>
                 {/* <!-- Item 3 --> */}
                 <div className="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10" data-carousel-item="">
-                    <img src="./Images/oaa8.jpg" className="absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                    <img src="../../Images/oaa8.jpg" className="absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
                 </div>
             </div>
             {/* <!-- Slider indicators --> */}

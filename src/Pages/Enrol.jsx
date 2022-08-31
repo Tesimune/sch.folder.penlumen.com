@@ -17,21 +17,23 @@ export default class Enrol extends Component {
       e.preventDefault();
 
       defaultModal.classList.remove('hidden')
+      
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response =>
-          // console.log('Submitted Successfully', response.message),
-          loader.classList.add('hidden'),
-          resultComp.classList.remove('hidden'),
-          result.innerHTML = "Submitted successfully",
-          result.classList = "grid justify-center text-center text-green-500 font-bold"
-          )
-          .catch(error => 
-          // console.error('Error!', error.message),
-          loader.classList.add('hidden'),
-          resultComp.classList.remove('hidden'),
-          result.innerHTML = "An error occurred while submitting please check your internet connection and try again",
-          result.classList = "grid justify-center text-center text-red-500 font-bold",
-        )
+      .then(response => {
+        // console.log('Submitted Successfully', response.message)
+        loader.classList.add('hidden')
+        result.innerHTML = "Submitted successfully"
+        result.classList = "grid justify-center text-center text-green-500 font-bold"
+        resultComp.classList.remove('hidden')
+      })
+          
+      .catch(error => {
+        // console.error('Error!', error.message)
+        loader.classList.add('hidden')
+        result.innerHTML = "An error occurred while submitting please check your internet connection and try again"
+        result.classList = "grid justify-center text-center text-red-500 font-bold"
+        resultComp.classList.remove('hidden')
+      })
     })
 
   }
