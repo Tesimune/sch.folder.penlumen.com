@@ -6,10 +6,16 @@ export default class Alert extends Component {
 
     const defaultModal = document.querySelector('#defaultModal')
     const closeModal = document.querySelector('#closeModal')
+    const loader = document.querySelector('#loader')
+    const resultComp = document.querySelector('#resultComp')
+
   
     closeModal.addEventListener('click', (e)=>{
       e.preventDefault();
       defaultModal.classList.add('hidden')
+      loader.classList.remove('hidden')
+      resultComp.classList.add('hidden')
+
     })
   }
 
