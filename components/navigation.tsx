@@ -16,7 +16,7 @@ export default function Navigation() {
           <Link href="/" className="flex items-center gap-3">
             <div className="w-12 h-12 relative">
               <Image
-                src="/images/whatsapp-20image-202025-12-02-20at-201.jpeg"
+                src="/logo.jpeg"
                 alt="Optimum Achievers Academy Logo"
                 width={48}
                 height={48}
