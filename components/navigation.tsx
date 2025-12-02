@@ -40,11 +40,14 @@ export default function Navigation() {
             <Link href="/gallery" className="text-foreground hover:text-primary transition-colors">
               Gallery
             </Link>
+            <Link href="/contact" className="text-foreground hover:text-primary transition-colors">
+              contact
+            </Link>
             <Link
-              href="/contact"
+              href="app.oaa.com.ng/login"
               className="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors"
             >
-              Contact
+              Login
             </Link>
           </div>
 
@@ -69,8 +72,11 @@ export default function Navigation() {
             <Link href="/gallery" className="block px-4 py-2 hover:bg-muted rounded-md">
               Gallery
             </Link>
-            <Link href="/contact" className="block px-4 py-2 bg-primary text-primary-foreground rounded-md">
+            <Link href="/contact" className="block px-4 py-2 hover:bg-muted rounded-md">
               Contact
+            </Link>
+            <Link href="app.oaa.com.ng/login" className="block px-4 py-2 bg-primary text-primary-foreground rounded-md">
+              Login
             </Link>
           </div>
         )}
