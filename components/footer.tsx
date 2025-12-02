@@ -12,15 +12,15 @@ export default function Footer() {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center gap-3">
                 <Phone size={18} />
-                <span>+1 (555) 123-4567</span>
+                <span>+234 806 915 6572</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={18} />
-                <span>info@achievers.edu</span>
+                <span>optimumachieversacademy@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin size={18} />
-                <span>123 Education Avenue, City</span>
+                <span>No 822 Alh Bala Danlarabawa Street, Hausawa, Kano.</span>
               </div>
             </div>
           </div>

@@ -23,7 +23,7 @@ export default function Navigation() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <span className="hidden md:inline text-lg font-bold text-primary">Optimum Achievers</span>
+            <span className="hidden md:inline text-lg font-bold text-primary">Optimum Achievers Acardemy</span>
           </Link>
 
           {/* Desktop Menu */}
