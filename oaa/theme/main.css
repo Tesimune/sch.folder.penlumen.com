@@ -1,0 +1,14 @@
+/* light mode overrides */
+:root {
+    --primary: oklch(0.620 0.210 260);        /* Blue */
+    --primary-foreground: oklch(0.98 0 0);
+
+    --secondary: oklch(0.940 0.030 90);       /* Soft Yellow */
+    --secondary-foreground: oklch(0.28 0 0);
+}
+
+/* optional dark mode overrides */
+.dark {
+    --primary: oklch(0.760 0.180 250);
+    --secondary: oklch(0.440 0.090 90);
+}
